@@ -1,0 +1,9 @@
+2025-10-07T04:00:01Z INFO Starting Docker container for my-app
+2025-10-07T04:00:05Z INFO Container started successfully
+2025-10-07T04:01:12Z WARNING Low disk space on container volume
+2025-10-07T04:02:33Z ERROR Failed to connect to database
+2025-10-07T04:02:34Z ERROR Exception: ConnectionTimeout while connecting to DB
+2025-10-07T04:03:20Z INFO Processing request ID 12345
+2025-10-07T04:04:10Z INFO Request ID 12345 completed successfully
+2025-10-07T04:05:01Z ERROR Unexpected Exception in worker thread
+2025-10-07T04:06:22Z INFO Cleanup completed

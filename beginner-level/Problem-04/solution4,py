@@ -1,0 +1,19 @@
+
+
+
+def palindrome_check(word):
+
+    word=word.lower()
+
+    cleaned_word ="" 
+
+    for ch in word:
+        if ch.isalnum():
+            cleaned_word+=ch
+
+    return cleaned_word == cleaned_word[::-1]
+
+print(palindrome_check("Madam"))  # Output: True
+
+word = input("Enter a word or phrase: ")
+print(palindrome_check(word))
